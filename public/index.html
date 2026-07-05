@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptimumEats Minutes Archive</title>
+    <meta name="description" content="OptimumEatsの店舗運営マニュアル化プロジェクトの議事録・決定事項・アクションを整理する閲覧専用サイトです。" />
+    <link rel="icon" href="./brand/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell" id="appShell">
+      <aside class="sidebar" id="sidebar" aria-label="日付別アーカイブ">
+        <div class="brand">
+          <div>
+            <img class="brand-logo" src="./brand/logo.svg" alt="OptimumEats" />
+            <p>OPTIMUM MTG</p>
+          </div>
+        </div>
+        <div class="sidebar-header">
+          <span>日付別</span>
+          <div class="sidebar-actions">
+            <button class="icon-button" id="sidebarToggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="左側を閉じる" title="左側を閉じる">
+              <span aria-hidden="true">‹</span>
+            </button>
+            <button class="icon-button" id="refreshButton" type="button" aria-label="更新" title="更新">↻</button>
+          </div>
+        </div>
+        <nav id="archiveList" class="archive-list"></nav>
+      </aside>
+
+      <button class="sidebar-rail-toggle" id="sidebarRailToggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="左側を閉じる" title="左側を閉じる">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <main class="workspace">
+        <header class="archive-hero">
+          <div>
+            <p class="eyebrow">Meeting Minutes</p>
+            <h2>店舗運営 議事録アーカイブ</h2>
+          </div>
+          <p>店舗運営マニュアル化プロジェクトの要点、決定事項、次のアクションを日付ごとに整理する閲覧専用ビューです。</p>
+        </header>
+
+        <section id="detailPane" class="detail-pane empty-state">
+          <div class="empty-copy">
+            <h2>議事録を選択</h2>
+            <p>日付別アーカイブから選ぶと、要約・決定事項・アクション・図解を表示します。</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="image-lightbox" id="imageLightbox" hidden aria-hidden="true">
+      <button class="lightbox-backdrop" type="button" data-lightbox-close aria-label="閉じる"></button>
+      <figure class="lightbox-panel">
+        <button class="lightbox-close" id="lightboxClose" type="button" aria-label="閉じる">×</button>
+        <img id="lightboxImage" src="" alt="" />
+      </figure>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
