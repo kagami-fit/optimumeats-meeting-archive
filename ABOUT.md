@@ -47,7 +47,10 @@ npm run check
 ## 状態
 
 - ルートプロジェクト — 開発中。OptimumEats用の初期サイトを作成済み
-- `public/` — 稼働中。議事録1件、公式ロゴ、図解画像、レスポンシブ画面を実装済み
+- `public/` — 稼働中。議事録4件、公式ロゴ、図解画像、レスポンシブ画面を実装済み
 - `server/` — 稼働中。ローカル確認用サーバーとして実装済み
 - `public/records/2026-07-05-operations-manual-kickoff/` — 稼働中。キックオフMTGの図解PNGを保存済み
-- GitHub Pages公開 — 未着手。リポジトリ作成後にワークフローで公開可能
+- `public/records/2026-07-06-ai-tools-website-renovation-progress/` — 稼働中。AI/Web改善MTGの図解PNGを保存済み
+- `public/records/2026-07-06-operations-flow-checklist-reservation/` — 稼働中。業務フロー・予約管理MTGの図解PNGを保存済み
+- `public/records/2026-07-06-inventory-checklist-design/` — 稼働中。在庫チェック表MTGの図解PNGを保存済み
+- GitHub Pages公開 — 稼働中。`gh-pages` ブランチから公開
