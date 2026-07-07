@@ -143,7 +143,7 @@ function renderDetail(record) {
   els.detailPane.innerHTML = `
     <div class="detail-header">
       <div>
-        <p class="eyebrow">${escapeHtml(record.category || "Meeting Minutes")}</p>
+        <p class="eyebrow">${escapeHtml(record.category || "Meeting Archive")}</p>
         <h2>${escapeHtml(record.title)}</h2>
         <div class="detail-meta">
           <span class="pill">${escapeHtml(formatDate(record.meetingDate))}</span>

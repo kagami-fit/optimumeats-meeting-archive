@@ -51,7 +51,7 @@ app.use((error, _req, res, _next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`OptimumEats Minutes Archive: http://localhost:${PORT}`);
+  console.log(`OptimumEats Meeting Archive: http://localhost:${PORT}`);
 });
 
 async function readRecords() {

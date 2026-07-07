@@ -1,5 +1,5 @@
 {
-  "name": "optimumeats-minutes-archive",
+  "name": "optimumeats-meeting-archive",
   "version": "1.0.0",
   "description": "OptimumEats の議事録と図解を日付別に見せる共有用Webアーカイブ",
   "main": "server/index.js",

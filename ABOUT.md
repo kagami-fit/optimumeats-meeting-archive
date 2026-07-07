@@ -1,4 +1,4 @@
-# OptimumEats Minutes Archive
+# OptimumEats Meeting Archive
 
 ## 一言で言うと
 

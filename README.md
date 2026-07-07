@@ -1,4 +1,4 @@
-# OptimumEats Minutes Archive
+# OptimumEats Meeting Archive
 
 OptimumEatsの店舗運営マニュアル化プロジェクト用に作成した、閲覧専用の議事録アーカイブサイトです。
 
